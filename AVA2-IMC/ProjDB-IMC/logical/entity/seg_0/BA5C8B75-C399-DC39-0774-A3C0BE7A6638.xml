@@ -1,0 +1,63 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA5C8B75-C399-DC39-0774-A3C0BE7A6638" name="ProdutoServico">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-04-03 23:05:44 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="7ED858CF-289B-7A37-D83F-E93DA34A4213" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>PS</preferredAbbreviation>
+<shortName>ProdutoServico</shortName>
+<synonym>ProdutoServico</synonym>
+<synonymToDisplay>ProdutoServico</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nome" id="1B96A2B1-1066-DAFE-C7FC-0897C898B04B">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-04-03 23:06:11 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="7ED858CF-289B-7A37-D83F-E93DA34A4213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="75BB598B-A723-6C55-B441-936F9C5F7B90">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-04-03 23:06:21 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="7ED858CF-289B-7A37-D83F-E93DA34A4213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco" id="AAE5BD30-58FE-9B78-A7CD-1D58664E9473">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-04-03 23:06:27 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="7ED858CF-289B-7A37-D83F-E93DA34A4213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="plano" id="99E88052-0AA2-A4D1-F1C2-A329A6D418CD">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-04-03 23:06:32 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="7ED858CF-289B-7A37-D83F-E93DA34A4213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1E0C1BF3-2943-1DBA-6A4F-174C89B4D4CF" name="HistoricoIMC">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-04-04 00:20:49 UTC</createdTime>
+<comment><![CDATA[ImcPessoa = pesoPessoa/(alturaCliente x alturaCliente)]]></comment>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="7ED858CF-289B-7A37-D83F-E93DA34A4213" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>HIMC</preferredAbbreviation>
+<shortName>HistoricoIMC</shortName>
+<synonym>HistoricoIMC</synonym>
+<synonymToDisplay>HistoricoIMC</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="dataMedidaImc" id="48F8C9AB-62BB-82DA-4A78-B05280D7C226">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-04-04 00:21:24 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="7ED858CF-289B-7A37-D83F-E93DA34A4213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente" id="FC0964A3-0079-2DB4-316A-D8627B87F420">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-04-04 00:21:46 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="7ED858CF-289B-7A37-D83F-E93DA34A4213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="pesoCliente" id="7AABF881-145E-06D7-DDE7-D3839F95462B">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-04-04 00:21:56 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="7ED858CF-289B-7A37-D83F-E93DA34A4213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alturaCliente" id="D484449C-4440-A2FB-B6E7-BA17464ACE6C">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-04-04 00:22:05 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="7ED858CF-289B-7A37-D83F-E93DA34A4213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vlrImcCliente" id="BD5B430D-8DD5-BBFC-CA16-CC5EAEB54DB3">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-04-04 00:22:37 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="7ED858CF-289B-7A37-D83F-E93DA34A4213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="analiseImcPessoa" id="B89DDCDA-03F6-1525-B578-4EDCA35BF9F2">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-04-04 00:22:52 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="7ED858CF-289B-7A37-D83F-E93DA34A4213" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

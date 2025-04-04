@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cliente-HistIMC" directorySegmentName="seg_0" id="53F22C4F-C142-CDBC-BC2E-A61FAFD92805">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-04-04 00:23:20 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<engineerTo>
+<item key="7ED858CF-289B-7A37-D83F-E93DA34A4213" value="true"/>
+</engineerTo>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9A5BFE24-DDC6-7898-9626-3FBDA7503552</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>1E0C1BF3-2943-1DBA-6A4F-174C89B4D4CF</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
