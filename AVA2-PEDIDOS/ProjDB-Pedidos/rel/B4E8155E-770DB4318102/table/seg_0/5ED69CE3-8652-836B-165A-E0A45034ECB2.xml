@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5ED69CE3-8652-836B-165A-E0A45034ECB2" name="Vendedor">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:41:00 UTC</createdTime>
+<generatorID>0151DDCA-72BC-5B81-E3C2-3F6BFB8FE528</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomeVendedor" id="21D63E7C-2C7A-7D76-4D25-6C86EB98823B">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:41:00 UTC</createdTime>
+<generatorID>D113497F-16B6-5E0F-3B79-E299E1C25AC4</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matriculaVendedor" id="152B27D5-1FDB-5783-65F6-4A3CC08B1D42">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:41:00 UTC</createdTime>
+<generatorID>1610AC7B-33AF-E19E-2B96-E2BFF7C83CB5</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DDC68A1E-8AB9-FDB0-9524-AF9251664721" name="Vendedor_PK">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:41:00 UTC</createdTime>
+<generatorID>D41A1A9E-0F3C-D49B-2EF0-F91BE9553116</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="152B27D5-1FDB-5783-65F6-4A3CC08B1D42"/>
+<colUsage columnID="21D63E7C-2C7A-7D76-4D25-6C86EB98823B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

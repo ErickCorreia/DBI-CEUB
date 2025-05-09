@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B8A28B5A-024E-B2B6-1EF5-DCFD27420CC8" name="telefonesClientes">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:00:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="B4E8155E-1200-CD8A-0C57-770DB4318102" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>telefonesClientes</shortName>
+<synonym>telefonesClientes</synonym>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="9470146B-6CF0-4A17-7992-893415E34CC3">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:00:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>EE86D4C0-C60E-F541-D88C-36898040E7EA</importedID>
+<engineerTo>
+<item key="B4E8155E-1200-CD8A-0C57-770DB4318102" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefoneCliente" id="EFA91B40-E2F6-FAC0-B3E4-94684EB05FDC">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:00:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>2A00103F-A3A8-5517-A1EB-3822AFE3C173</importedID>
+<engineerTo>
+<item key="B4E8155E-1200-CD8A-0C57-770DB4318102" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipoTelefoneCliente" id="D7862DC0-BE2C-06A2-B762-D4B9C918CDC9">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:00:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>68819FA4-4FFA-EFFE-DC70-80E73B179784</importedID>
+<engineerTo>
+<item key="B4E8155E-1200-CD8A-0C57-770DB4318102" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente1" id="FDD7F124-938C-C295-DA5F-76EF40CC6669">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:00:05 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>738BF461-00F8-515E-C218-F8F7C8C5F29E</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>EA50A0C4-DC3E-5D85-B2C7-0E0E0DF750D8</importedID>
+<engineerTo>
+<item key="B4E8155E-1200-CD8A-0C57-770DB4318102" value="true"/>
+</engineerTo>
+<referedAttribute>C3DB2BB4-613B-9DCC-870E-880DE53E67C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="2BA23292-7B97-98EE-583C-A85F44A39FF4" name="telefonesClientes PK">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:00:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="B4E8155E-1200-CD8A-0C57-770DB4318102" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9470146B-6CF0-4A17-7992-893415E34CC3</attributeRef>
+<attributeRef>EFA91B40-E2F6-FAC0-B3E4-94684EB05FDC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

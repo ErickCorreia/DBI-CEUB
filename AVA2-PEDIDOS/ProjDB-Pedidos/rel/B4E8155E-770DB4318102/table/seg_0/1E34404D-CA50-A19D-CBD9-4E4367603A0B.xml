@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1E34404D-CA50-A19D-CBD9-4E4367603A0B" name="telefonesClientes">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:41:00 UTC</createdTime>
+<generatorID>B8A28B5A-024E-B2B6-1EF5-DCFD27420CC8</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<abbreviation>telefonesClientes</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="05537522-4A17-35DA-B8E2-4365133B2CE9">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:41:00 UTC</createdTime>
+<generatorID>9470146B-6CF0-4A17-7992-893415E34CC3</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefoneCliente" id="CC6893A1-278A-4599-8C6A-159CF2CD3D25">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:41:00 UTC</createdTime>
+<generatorID>EFA91B40-E2F6-FAC0-B3E4-94684EB05FDC</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>14</dataTypeSize>
+<ownDataTypeParameters>14,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipoTelefoneCliente" id="F674E338-C5E6-FCC4-7999-FF9FF8586E58">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:41:00 UTC</createdTime>
+<generatorID>D7862DC0-BE2C-06A2-B762-D4B9C918CDC9</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfCliente1" id="53837ADB-A67C-F14C-81B5-FAA5C45BA326">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:41:00 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>FDD7F124-938C-C295-DA5F-76EF40CC6669</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4F658DB0-74CA-86F8-5FFA-79EA3EBEC664" name="telefonesClientes_PK">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:41:00 UTC</createdTime>
+<generatorID>2BA23292-7B97-98EE-583C-A85F44A39FF4</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="05537522-4A17-35DA-B8E2-4365133B2CE9"/>
+<colUsage columnID="CC6893A1-278A-4599-8C6A-159CF2CD3D25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7557FD69-1621-3C9F-90D4-33E2FF534A2E" name="telefonesClientes_Clientes_FK">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:41:00 UTC</createdTime>
+<generatorID>738BF461-00F8-515E-C218-F8F7C8C5F29E</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

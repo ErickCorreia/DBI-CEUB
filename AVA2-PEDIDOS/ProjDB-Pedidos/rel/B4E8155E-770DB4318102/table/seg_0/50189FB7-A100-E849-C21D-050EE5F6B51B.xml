@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="50189FB7-A100-E849-C21D-050EE5F6B51B" name="Clientes">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:41:00 UTC</createdTime>
+<generatorID>76CB8A0C-4B5B-8B5B-F619-A410E94D5E56</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EnderecoCliente_cpfCliente" id="32E6301B-935F-8143-F669-B1AA9E2BCF0E">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:41:00 UTC</createdTime>
+<generatorID>D9121BA4-820D-F072-D4F1-6FEDFDE15B7C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5EADA35B-485E-2D86-C3F8-BB1B5FDEB28D" referredColumn="8833DF0F-9C42-9E8C-015E-4A4B82647DFF"/>
+</associations>
+</Column>
+<Column name="nomeCliente" id="7F9957ED-3A04-9383-6747-0A10C9244DC8">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:41:00 UTC</createdTime>
+<comment><![CDATA[Nome completo da pessoa.]]></comment>
+<generatorID>47A5B6CF-B2C5-9AC0-9C05-37F13E5E6742</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="47ED2AE0-7618-1A1D-2257-CAA6820F9F8D" name="Clientes_PK">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:41:00 UTC</createdTime>
+<generatorID>59A60C23-1621-2313-8FC9-D9A2F0925496</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+<ind_PK_UK id="0ED4B56B-253E-601B-C463-F00CFB9566A2" name="Clientes__IDX">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:41:00 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>EFBD9D01-B591-0A20-36C3-FE52DF2A2587</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="32E6301B-935F-8143-F669-B1AA9E2BCF0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="852DBF5A-4259-399B-357C-8774C638F123" name="Clientes_EnderecoCliente_FK">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:41:00 UTC</createdTime>
+<generatorID>EFBD9D01-B591-0A20-36C3-FE52DF2A2587</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="32E6301B-935F-8143-F669-B1AA9E2BCF0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

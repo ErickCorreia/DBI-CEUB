@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="98A761C0-AC56-7993-5A0E-D5723AAE6D69" name="EnderecoCliente">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:00:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="B4E8155E-1200-CD8A-0C57-770DB4318102" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpfCliente" id="25585122-796F-403B-3734-F63706D87224">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:00:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>1FE698CF-E2C6-C77B-2405-6BABD49E29FB</importedID>
+<engineerTo>
+<item key="B4E8155E-1200-CD8A-0C57-770DB4318102" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ufEnderecoCliente" id="7D285909-61E6-15F5-FDC7-A89EF8FA4CDB">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:00:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>46A18AC8-066A-D9F7-5C16-ADBCE3ABDE3C</importedID>
+<engineerTo>
+<item key="B4E8155E-1200-CD8A-0C57-770DB4318102" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>2</dataTypeSize>
+<ownDataTypeParameters>2,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidadeEnderecoCliente" id="DEBC03B8-4323-DB8C-0024-C36C0390C51C">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:00:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>90E25FB3-29DD-5445-B93B-DF8F7BE866E6</importedID>
+<engineerTo>
+<item key="B4E8155E-1200-CD8A-0C57-770DB4318102" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cepEnderecoCliente" id="E067116F-071E-5D92-D24B-3499AEA14A68">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:00:05 UTC</createdTime>
+<comment><![CDATA[CEP: Código de Endereçamento Postal, composto por oito números que identificam a região, o setor, o município, e outras informações importantes para a entrega.]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>6BE0CC74-A12B-4823-72DC-ECA623EE85C1</importedID>
+<engineerTo>
+<item key="B4E8155E-1200-CD8A-0C57-770DB4318102" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8 CHAR</dataTypeSize>
+<ownDataTypeParameters>8 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nroEnderecoCliente" id="ABCD6A20-B8DC-883F-8555-9A1584436227">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:00:05 UTC</createdTime>
+<comment><![CDATA[Endereço completo da pessoa, sendo:
+Logradouro: Nome da rua ou avenida; 
+Número: Número da casa ou prédio;
+Complemento: Informações adicionais que ajudam a identificar a unidade residencial ou comercial; 
+Bairro: Região do bairro onde se encontra o endereço; 
+Localidade: Nome da cidade, município ou região; 
+Estado: Sigla do estado onde se encontra o endereço. ]]></comment>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>6381C669-C4A5-8B58-18A3-7C349C11C96E</importedID>
+<engineerTo>
+<item key="B4E8155E-1200-CD8A-0C57-770DB4318102" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complementoEnderecoCliente" id="2BC12701-F48E-6233-4B36-AE4008146C0A">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:00:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>2749DC91-E472-EF5A-6F3B-327826BE89C3</importedID>
+<engineerTo>
+<item key="B4E8155E-1200-CD8A-0C57-770DB4318102" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouroEnderecoCliente" id="9786F40C-D4CA-57A5-C06C-1B02E831F34C">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:00:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>789E632D-0966-F1D7-D3D0-C8D900721E31</importedID>
+<engineerTo>
+<item key="B4E8155E-1200-CD8A-0C57-770DB4318102" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfCliente1" id="6519E55F-5341-2A55-C95C-4DB743ABB9FE">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:00:05 UTC</createdTime>
+<comment><![CDATA[CPF que identificar um cliente.]]></comment>
+<generatorID>EFBD9D01-B591-0A20-36C3-FE52DF2A2587</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<importedID>00B4AFF0-3EDA-2FF5-BE77-3D6461BF8FCF</importedID>
+<engineerTo>
+<item key="B4E8155E-1200-CD8A-0C57-770DB4318102" value="true"/>
+</engineerTo>
+<referedAttribute>C3DB2BB4-613B-9DCC-870E-880DE53E67C2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 CHAR</dataTypeSize>
+<ownDataTypeParameters>11 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="66C031D3-1E8B-97D6-B2DE-E133EB49B41F" name="enderecoCliente PK">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-09 00:00:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="B4E8155E-1200-CD8A-0C57-770DB4318102" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>25585122-796F-403B-3734-F63706D87224</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
