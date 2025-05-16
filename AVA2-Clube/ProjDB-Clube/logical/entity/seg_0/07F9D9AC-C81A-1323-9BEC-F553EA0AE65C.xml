@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="07F9D9AC-C81A-1323-9BEC-F553EA0AE65C" name="endereco">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-15 23:30:21 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="D4E3FBED-ACBC-640A-923C-720BF8DF2166" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<preferredAbbreviation>End</preferredAbbreviation>
+<shortName>endereco</shortName>
+<synonym>endereco</synonym>
+<synonymToDisplay>endereco</synonymToDisplay>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cpf" id="55177AEE-70DE-34E4-F011-F2A7C9191049">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-15 23:30:49 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="D4E3FBED-ACBC-640A-923C-720BF8DF2166" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cep" id="3154BBE4-B372-2371-07B0-8E98A67C39CC">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-15 23:35:28 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="D4E3FBED-ACBC-640A-923C-720BF8DF2166" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="uf" id="BE82E4B0-263C-4211-4E15-1E0F8D036A6A">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-15 23:36:30 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="D4E3FBED-ACBC-640A-923C-720BF8DF2166" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cidade" id="2075EEF9-F67A-0AE3-ADEF-7E2E5561D25D">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-15 23:37:07 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="D4E3FBED-ACBC-640A-923C-720BF8DF2166" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="bairro" id="A2B07CB5-9354-FCD5-A577-DDD42DB4306A">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-15 23:38:03 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="D4E3FBED-ACBC-640A-923C-720BF8DF2166" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="complemento" id="13F6D3DF-06A9-6DE2-B2AA-FFB5A74ADDEA">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-15 23:39:06 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="D4E3FBED-ACBC-640A-923C-720BF8DF2166" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="número" id="7097031B-242B-D2B8-3382-0D27722E629B">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-15 23:40:05 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="D4E3FBED-ACBC-640A-923C-720BF8DF2166" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="logradouro" id="B7A8A41D-C603-F92D-4AAA-914081C8D07A">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-15 23:40:48 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="D4E3FBED-ACBC-640A-923C-720BF8DF2166" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfTitular" id="9F64FDDA-79B9-B8C5-816A-A187F4C858E8">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-16 00:39:28 UTC</createdTime>
+<generatorID>03355049-8CE4-68A1-074B-F64254A0C641</generatorID>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="D4E3FBED-ACBC-640A-923C-720BF8DF2166" value="true"/>
+</engineerTo>
+<referedAttribute>4995F998-5B6B-4109-9CD4-4099D812EE3D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F5675AC4-7211-D15C-8695-23E69B2DE25F" name="enderecoTitular PK">
+<createdBy>correiaerick18</createdBy>
+<createdTime>2025-05-15 23:35:23 UTC</createdTime>
+<ownerDesignName>ProjDB-Clube</ownerDesignName>
+<engineerTo>
+<item key="D4E3FBED-ACBC-640A-923C-720BF8DF2166" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>55177AEE-70DE-34E4-F011-F2A7C9191049</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
